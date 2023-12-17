@@ -1,0 +1,39 @@
+{
+  "name": "lightbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-mutex": "^0.4.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2",
+    "node-cron": "^3.0.2",
+    "nodemon": "^3.0.1",
+    "piesocket-nodejs": "^1.1.0",
+    "puppeteer": "^21.0.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "selenium-webdriver": "^4.11.1",
+    "socks-proxy-agent": "^8.0.1",
+    "telegraf": "^4.12.2",
+    "telegraph": "^0.8.22",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "prettier": "3.0.1"
+  }
+}
